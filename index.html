@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Can Tony Cook?</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
   </head>
   <body bgcolor="#C1D6CA">
     <font face="Helvetica" color="2E2E2E" size="4"></font>
@@ -13,13 +14,17 @@
 <p>
     Believe it or not, folks, this is my own recipe. You can watch me make it <a href="https://www.tiktok.com/@therealtonykevin/video/7498524311121169694" target="_blank" rel="noopener noreferrer">on TikTok</a>
 </p>
-<figure>
+<div class="grid-container">
+<section class ="top-left"
+  <figure>
     <img src="images/cabbagesalad.jpg" alt="Cabbage and Tofu Salad" height="250">
     <figcaption>
       This tasty and refreshing salad combines crunchy cabbage, crispy tofu, and a flavorful dressing for a delightful meal.
     </figcaption>
   </figure>
-<h3>Ingredients:</h3>
+  </section>
+<section class="bottom-left">
+  <h3>Ingredients:</h3>
 <ul>
     <li>Firm Tofu</li>
     <li>Sesame Oil</li>
@@ -39,7 +44,36 @@
     <li>Garlic Clove</li>
     <li>Sunflower Seeds</li>
     <li>Sesame Seeds</li>
+    </ul>
+    </section>
 
+    <section>
+    <h3 class="rate">Rate This Recipe</h3>
+    <fieldset style="width: 250px;">
+      <legend>How difficult is this recipe?</legend>
+        <input type="radio" id="easy" name="easy"> Easy
+        <input type="radio" id="med" name="med">Intermediate
+        <input type="radio" id="hard" name="hard"> Hard
+    </fieldset>
+    <p>&nbsp;</p>
+    <h3>Conversion</h3>
+    <form>
+      <input
+        type="number"
+        id="tablespoons"
+        name="tablespoons"
+        placeholder="tablespoons"
+      >
+    
+      <input
+        type="number"
+        id="cups"
+        name="cups"
+        placeholder="cups"
+      >
+    </form>
+  </section>
+<!--
   </ul>
   <h3>Equipment</h3>
   <ul>
@@ -53,6 +87,8 @@
     <li>Tongs (optional)</li>
     <li>Colander (for draining tofu)</li>
   </ul>
+-->
+  <section>
   <h3>Instructions:</h3>
     <ol>
         <li>Press the tofu to remove excess water. You can do this by wrapping it in a clean towel and placing a heavy object on top for about 15-20 minutes.</li>
@@ -65,6 +101,9 @@
         <li>Sprinkle sunflower seeds and sesame seeds on top for added crunch and flavor.</li>
         <li>Serve immediately and enjoy your delicious cabbage and tofu salad!</li>
     </ol>
+  </section>
+</div>
     <div align="right">This page is created as academic activity only</div>
+    
     </body>
 </html>
