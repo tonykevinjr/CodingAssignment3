@@ -1,0 +1,23 @@
+body {
+    background-color: #C1D6CA;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #2E2E2E;
+    font-size: 16px;
+    margin: 20px;
+}
+
+h1, h2, h3 {
+    font-family: "Helvetica", Arial, sans-serif;
+    color: #2E2E2E;
+    text-shadow: 3px 3px 3px #A9A9A9;
+}
+
+p
+figure
+ul
+li
+ol
+hr
+span
+input
+fieldset
